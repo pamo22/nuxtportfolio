@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-c-offwhite {
+    background-color: #f3f1ec;
+}
+
+.font-archivo {
+    font-family: 'Archivo', sans-serif;
+}
+
+.font-montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
