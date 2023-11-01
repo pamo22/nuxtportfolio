@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+    scroll-behavior:smooth
+}
+
 .bg-c-offwhite {
     background-color: #f3f1ec;
 }
@@ -12,4 +16,8 @@
 
 .font-montserrat {
     font-family: 'Montserrat', sans-serif;
+}
+
+.font-comfortaa {
+    font-family: 'Comfortaa', sans-serif;
 }
