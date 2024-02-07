@@ -21,3 +21,27 @@ html {
 .font-comfortaa {
     font-family: 'Comfortaa', sans-serif;
 }
+
+.bg-c-offblack {
+    background-color: #0b0f0e;
+}
+
+.fg-c-offwhite {
+    color: #f4f5fc;
+}
+
+.fg-c-grey {
+    color: #cacaca;
+}
+
+.border-c-offwhite {
+    border-color: #f4f5fc;
+}
+
+.border-c-1 {
+    border-width: 1px;
+}
+
+a:hover {
+    color: #cacaca;
+}

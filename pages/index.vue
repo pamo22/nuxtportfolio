@@ -6,7 +6,7 @@
                     <h1 class="text-7xl font-comfortaa">Oscar Coghlan</h1> 
                     <br>
                     <p class="text-lg">Aspiring software developer</p>
-                    <a href="#about" class="hover:text-gray-500 underline">learn more</a>
+                    <a href="#about" class="underline">learn more</a>
                 </span>
             </span>
         </div>
@@ -28,11 +28,11 @@
         </div>
         <div class="w-full">
             <h1 id="projects" class="text-3xl font-comfortaa mb-2">My projects</h1>
-            <hr class="border-black mb-4">
+            <hr class="fg-c-offwhite mb-4">
             <div class="w-[98%] mx-auto ">
                 <span class="grid grid-cols-1 md:grid-cols-2">
                     <span class="lg:pr-2 pr-8">
-                        <a href="/automata-gl" class="hover:text-gray-500 underline text-2xl font-comfortaa mb-2">automata-gl</a>
+                        <a href="/automata-gl" class="underline text-2xl font-comfortaa mb-2">automata-gl</a>
                         <p class="text-lg ">
                             Cellular automata are a beautiful example of the ways that simple rulesets can create complex results. This project helped me understand c concepts such as pointers and arrays, and was a good introduction into OpenGL programming. 
                         </p>
@@ -41,38 +41,40 @@
                         </p>
                     </span>
                     <span class="grid grid-cols-1 items-center ml-auto mr-auto gap-4 hidden md:block">
-                        <video class="max-h-80" controls autoplay muted loop src="~assets/vid/gol1.mp4"></video>
+                        <video class="max-h-80 border-c-offwhite border-c-1" controls autoplay muted loop src="~assets/vid/gol1.mp4"></video>
                     </span>
                 </span>
             </div>
-            <hr class="border-black mb-4 mt-4">
+            <hr class="fg-c-offwhite mb-4 mt-4">
             <div class="w-[98%] mx-auto ">
                 <span class="grid grid-cols-1 md:grid-cols-2">
                     <span class="grid grid-cols-1 gap-4 pr-8 items-center ml-auto mr-auto hidden md:block">
-                        <video class="max-h-80" controls autoplay muted loop src="~assets/vid/ballsprev.mp4"></video>
+                        <video class="max-h-80 border-c-offwhite border-c-1" controls autoplay muted loop src="~assets/vid/ballsprev.mp4"></video>
                     </span>
                     <span class="lg:pr-0 pr-2">
-                        <a href="/collisions-cpp" class="hover:text-gray-500 underline text-2xl font-comfortaa mb-2">collisions-cpp</a>
+                        <a href="/collisions-cpp" class=" underline text-2xl font-comfortaa mb-2">collisions-cpp</a>
                         <p class="text-lg ">
                             Simulating particle physics is a very fun project, it is a research and mathematics intesive endeavor, and tests how far you will go for perfection. In this case I unforunately did not attain perfection, when you add gravity, this engine falls apart at the seams, probably because there is technically no "loss" in the system. Anyway, it's a pretty fun little application, and for it's faults, I'm proud of how it turned out. Making this taught me a lot about vectors, matrixes, and taught me all about C++ objects.
                         </p>
                     </span>
                 </span>
             </div>
-            <hr class="border-black mb-4 mt-4">
+            <hr class="fg-c-offwhite mb-4 mt-4">
             <div class="w-[98%] mx-auto ">
                 <span class="grid grid-cols-1 md:grid-cols-2">
-                    <span class="grid grid-cols-1 gap-4 pr-8 items-center ml-auto mr-auto hidden md:block">
-                        <video class="max-h-80" controls autoplay muted loop src="~assets/vid/ballsprev.mp4"></video>
-                    </span>
                     <span class="lg:pr-0 pr-2">
-                        <a href="/collisions-cpp" class="hover:text-gray-500 underline text-2xl font-comfortaa mb-2">collisions-cpp</a>
+                        <a href="/collisions-cpp" class="underline text-2xl font-comfortaa mb-2">some-other-project</a>
                         <p class="text-lg ">
                             Simulating particle physics is a very fun project, it is a research and mathematics intesive endeavor, and tests how far you will go for perfection. In this case I unforunately did not attain perfection, when you add gravity, this engine falls apart at the seams, probably because there is technically no "loss" in the system. Anyway, it's a pretty fun little application, and for it's faults, I'm proud of how it turned out. Making this taught me a lot about vectors, matrixes, and taught me all about C++ objects.
                         </p>
                     </span>
+                    <span class="grid grid-cols-1 gap-4 pr-8 items-center ml-auto mr-auto hidden md:block">
+                        <video class="max-h-80" controls autoplay muted loop src="~assets/vid/ballsprev.mp4"></video>
+                    </span>
                 </span>
             </div>
+            <hr class="fg-c-offwhite mb-4 mt-4">
         </div>
+        <p>HIEwahouieyh</p>
     </div>
 </template>
