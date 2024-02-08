@@ -45,3 +45,7 @@ html {
 a:hover {
     color: #cacaca;
 }
+
+.custom-bottom-margin {
+    margin-bottom: calc(100vh * 0.1);
+}

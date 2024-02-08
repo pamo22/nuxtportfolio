@@ -2,7 +2,7 @@
     <div class="font-archivo">
         <div class="h-[calc(100vh-5rem)] table w-full">
             <span class="table-cell h-auto align-middle w-full">
-                <span class="inline-block text-normal w-full text-center mb-40">
+                <span class="inline-block text-normal w-full text-center custom-bottom-margin">
                     <h1 class="text-7xl font-comfortaa">Oscar Coghlan</h1> 
                     <br>
                     <p class="text-lg">Aspiring software developer</p>
@@ -12,7 +12,8 @@
         </div>
         <div class="w-full mb-8">
             <h1 id="about" class="text-3xl font-comfortaa mb-2">About me</h1>
-            <hr class="border-black mb-4">
+            <hr class=" mb-1">
+            <hr class=" mb-4">
             <p class="text-lg">
                 I'm Oscar, a dedicated software engineering student focused on delivering innovative solutions. On this portfolio website, I share my skills, projects, and experiences.
                 <br>
@@ -28,7 +29,8 @@
         </div>
         <div class="w-full">
             <h1 id="projects" class="text-3xl font-comfortaa mb-2">My projects</h1>
-            <hr class="fg-c-offwhite mb-4">
+            <hr class=" mb-1">
+            <hr class=" mb-4">
             <div class="w-[98%] mx-auto ">
                 <span class="grid grid-cols-1 md:grid-cols-2">
                     <span class="lg:pr-2 pr-8">
@@ -45,7 +47,7 @@
                     </span>
                 </span>
             </div>
-            <hr class="fg-c-offwhite mb-4 mt-4">
+            <hr class=" mb-4 mt-4">
             <div class="w-[98%] mx-auto ">
                 <span class="grid grid-cols-1 md:grid-cols-2">
                     <span class="grid grid-cols-1 gap-4 pr-8 items-center ml-auto mr-auto hidden md:block">
@@ -59,7 +61,7 @@
                     </span>
                 </span>
             </div>
-            <hr class="fg-c-offwhite mb-4 mt-4">
+            <hr class=" mb-4 mt-4">
             <div class="w-[98%] mx-auto ">
                 <span class="grid grid-cols-1 md:grid-cols-2">
                     <span class="lg:pr-0 pr-2">
@@ -73,8 +75,26 @@
                     </span>
                 </span>
             </div>
-            <hr class="fg-c-offwhite mb-4 mt-4">
+            <hr class=" mb-8 mt-4">
+            <h1 id="projects" class="text-3xl font-comfortaa mb-2">Contact Me</h1>
+            <hr class=" mb-1">
+            <hr class=" mb-4">
+            <div class="">
+                <p class="text-lg text-center">Thanks for visiting my page, if you would like to contact me, please pursue the channels listed below.</p>
+                <div class="w-[98%] grid grid-cols-1 md:grid-cols-3">
+                    <span class="w-full text-center">
+                        <a class="w-[50%] mx-[50%] block" href="https://github.com/oscarcoghlan/">
+                            <img src="/assets/svg/github-mark-white.svg">
+                        </a>
+                    </span>
+                    <span class="w-full text-center">
+                        faw
+                    </span>
+                    <span class="w-full text-center">
+                        fwaj
+                    </span>
+                </div>
+            </div>
         </div>
-        <p>HIEwahouieyh</p>
     </div>
 </template>
